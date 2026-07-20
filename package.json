@@ -1,0 +1,24 @@
+{
+  "name": "openstack-supabase-clone",
+  "version": "1.0.0",
+  "description": "Something Special",
+  "scripts": {
+    "dev:api": "pnpm --filter api run start:dev",
+    "dev:web": "pnpm --filter web run dev",
+    "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:web\""
+  },
+  "keywords": [],
+  "author": "Rajarshi Chakraborty",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.1.2",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
