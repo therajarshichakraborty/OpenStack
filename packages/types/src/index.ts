@@ -7,7 +7,7 @@ export interface User {
   updatedAt: string;
 }
 
-export type OrgRole = 'admin' | 'developer';
+export type OrgRole = "admin" | "developer";
 
 export interface Organization {
   id: string;
@@ -94,18 +94,18 @@ export interface CreateProjectInput {
 }
 
 export interface ProjectWithOrg extends Project {
-  org: Pick<Organization, 'id' | 'name' | 'slug'>;
+  org: Pick<Organization, "id" | "name" | "slug">;
 }
 
 export type ColumnType =
-  | 'text'
-  | 'integer'
-  | 'bigint'
-  | 'boolean'
-  | 'timestamp'
-  | 'uuid'
-  | 'jsonb'
-  | 'numeric';
+  | "text"
+  | "integer"
+  | "bigint"
+  | "boolean"
+  | "timestamp"
+  | "uuid"
+  | "jsonb"
+  | "numeric";
 
 export interface TableColumn {
   name: string;
@@ -141,7 +141,7 @@ export interface CreateTableInput {
 
 // API DOCS
 export interface ProjectApiEndpoint {
-  method: 'GET' | 'POST' | 'PATCH' | 'DELETE';
+  method: "GET" | "POST" | "PATCH" | "DELETE";
   path: string;
   description: string;
   example: string;
@@ -181,7 +181,7 @@ export interface QueryHistoryItem {
   createdAt: string;
 }
 
-export type RealtimeEventType = 'INSERT' | 'UPDATE' | 'DELETE';
+export type RealtimeEventType = "INSERT" | "UPDATE" | "DELETE";
 
 export interface RealtimeEvent {
   type: RealtimeEventType;
@@ -193,7 +193,7 @@ export interface RealtimeEvent {
 }
 
 // Storage
-export type BucketAccess = 'public' | 'private';
+export type BucketAccess = "public" | "private";
 
 export interface StorageBucket {
   id: string;
@@ -223,7 +223,7 @@ export interface ProjectAuthUser {
   id: string;
   email: string;
   emailVerified: boolean;
-  provider: 'email' | 'google' | 'github';
+  provider: "email" | "google" | "github";
   createdAt: string;
 }
 

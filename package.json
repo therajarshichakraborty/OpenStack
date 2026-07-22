@@ -5,7 +5,8 @@
   "scripts": {
     "dev:api": "pnpm --filter api run start:dev",
     "dev:web": "pnpm --filter web run dev",
-    "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:web\""
+    "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:web\"",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "Rajarshi Chakraborty",
@@ -19,6 +20,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "concurrently": "^10.0.3"
+    "concurrently": "^10.0.3",
+    "prettier": "^3.5.3"
   }
 }

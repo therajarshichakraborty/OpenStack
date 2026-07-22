@@ -2,18 +2,26 @@
 
 > **The open source platform for building modern applications.**
 >
-> Authentication. Database. Storage. Realtime. Functions. AI.
-> Everything you need to build, ship, and scale from a single platform.
+> Authentication. Database. Storage. Realtime. Functions. AI. Everything you
+> need to build, ship, and scale from a single platform.
 
 ---
 
 ## Overview
 
-OpenStack is a modern, open source Backend as a Service platform built for developers who want to move fast without sacrificing flexibility or control.
+OpenStack is a modern, open source Backend as a Service platform built for
+developers who want to move fast without sacrificing flexibility or control.
 
-Designed with a scalable monorepo architecture, OpenStack combines a powerful NestJS backend with a high performance Next.js dashboard to deliver an exceptional developer experience. From authentication and databases to realtime APIs, object storage, serverless functions, AI integrations, background jobs, and observability, OpenStack provides the complete backend foundation for modern applications.
+Designed with a scalable monorepo architecture, OpenStack combines a powerful
+NestJS backend with a high performance Next.js dashboard to deliver an
+exceptional developer experience. From authentication and databases to realtime
+APIs, object storage, serverless functions, AI integrations, background jobs,
+and observability, OpenStack provides the complete backend foundation for modern
+applications.
 
-Whether you are building a SaaS product, AI application, startup, enterprise platform, or internal tooling, OpenStack lets you focus on building products instead of backend infrastructure.
+Whether you are building a SaaS product, AI application, startup, enterprise
+platform, or internal tooling, OpenStack lets you focus on building products
+instead of backend infrastructure.
 
 ---
 
@@ -21,66 +29,66 @@ Whether you are building a SaaS product, AI application, startup, enterprise pla
 
 ### 🔐 Authentication
 
-* Email and password authentication
-* Social login providers
-* Multi Factor Authentication
-* Session management
-* Role Based Access Control
-* Organization support
+- Email and password authentication
+- Social login providers
+- Multi Factor Authentication
+- Session management
+- Role Based Access Control
+- Organization support
 
 ### 🗄️ Database
 
-* Managed PostgreSQL
-* Automatic migrations
-* Connection pooling
-* Row Level Security
-* SQL editor
-* Backup and restore
+- Managed PostgreSQL
+- Automatic migrations
+- Connection pooling
+- Row Level Security
+- SQL editor
+- Backup and restore
 
 ### 📦 Storage
 
-* Object storage
-* Secure file uploads
-* Public and private buckets
-* Image optimization
-* CDN ready delivery
+- Object storage
+- Secure file uploads
+- Public and private buckets
+- Image optimization
+- CDN ready delivery
 
 ### ⚡ Realtime
 
-* Live subscriptions
-* WebSocket support
-* Event broadcasting
-* Presence
-* Channels
+- Live subscriptions
+- WebSocket support
+- Event broadcasting
+- Presence
+- Channels
 
 ### ☁️ Functions
 
-* Serverless functions
-* Scheduled jobs
-* Background workers
-* Webhooks
-* Event driven workflows
+- Serverless functions
+- Scheduled jobs
+- Background workers
+- Webhooks
+- Event driven workflows
 
 ### 🤖 AI Platform
 
-* AI SDK
-* Embeddings
-* Vector search
-* Retrieval pipelines
-* Model integrations
-* AI workflows
+- AI SDK
+- Embeddings
+- Vector search
+- Retrieval pipelines
+- Model integrations
+- AI workflows
 
 ### 📊 Developer Experience
 
-* Beautiful dashboard
-* CLI
-* SDKs
-* REST API
-* GraphQL
-* OpenAPI documentation
-* Local development
-* Self hosting
-* Cloud deployment
+- Beautiful dashboard
+- CLI
+- SDKs
+- REST API
+- GraphQL
+- OpenAPI documentation
+- Local development
+- Self hosting
+- Cloud deployment
 
 ---
 
@@ -88,27 +96,27 @@ Whether you are building a SaaS product, AI application, startup, enterprise pla
 
 ### Frontend
 
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-* shadcn/ui
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
 
 ### Backend
 
-* NestJS
-* TypeScript
-* PostgreSQL
-* Redis
-* Docker
+- NestJS
+- TypeScript
+- PostgreSQL
+- Redis
+- Docker
 
 ### Infrastructure
 
-* Turborepo
-* pnpm
-* Prisma
-* BullMQ
-* WebSockets
+- Turborepo
+- pnpm
+- Prisma
+- BullMQ
+- WebSockets
 
 ---
 
@@ -195,33 +203,33 @@ OpenStack is built as a modular ecosystem.
 
 OpenStack is built around a few simple principles.
 
-* Developer experience comes first.
-* Open source by default.
-* Production ready from day one.
-* Modular architecture.
-* Secure by design.
-* Built to scale.
-* Works locally and in the cloud.
+- Developer experience comes first.
+- Open source by default.
+- Production ready from day one.
+- Modular architecture.
+- Secure by design.
+- Built to scale.
+- Works locally and in the cloud.
 
 ---
 
 ## 🛣️ Roadmap
 
-* Authentication
-* PostgreSQL
-* Object Storage
-* Realtime
-* Serverless Functions
-* Background Jobs
-* AI Platform
-* SDKs
-* CLI
-* Dashboard
-* Kubernetes Support
-* Multi Region Deployment
-* Edge Runtime
-* Marketplace
-* Enterprise Features
+- Authentication
+- PostgreSQL
+- Object Storage
+- Realtime
+- Serverless Functions
+- Background Jobs
+- AI Platform
+- SDKs
+- CLI
+- Dashboard
+- Kubernetes Support
+- Multi Region Deployment
+- Edge Runtime
+- Marketplace
+- Enterprise Features
 
 ---
 
@@ -229,12 +237,12 @@ OpenStack is built around a few simple principles.
 
 We welcome contributions of every size.
 
-* Report bugs
-* Suggest new features
-* Improve documentation
-* Submit pull requests
-* Build plugins
-* Help improve the ecosystem
+- Report bugs
+- Suggest new features
+- Improve documentation
+- Submit pull requests
+- Build plugins
+- Help improve the ecosystem
 
 ---
 
@@ -246,6 +254,7 @@ Licensed under the MIT License.
 
 ## 🌟 Support the Project
 
-If OpenStack helps you build amazing products, consider giving the repository a ⭐ on GitHub and sharing it with the community.
+If OpenStack helps you build amazing products, consider giving the repository a
+⭐ on GitHub and sharing it with the community.
 
 Together, we can build an open, developer first backend platform for everyone.
